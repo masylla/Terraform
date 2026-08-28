@@ -1,0 +1,11 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# SSH/private keys
+keys/
+
+# Terraform crash logs
+crash.log
+crash.*.log
