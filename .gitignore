@@ -5,7 +5,9 @@
 
 # SSH/private keys
 keys/
+Cloud/keys/
 
 # Terraform crash logs
 crash.log
 crash.*.log
+Cloud/instances/.terraform.lock.hcl
