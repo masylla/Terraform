@@ -1,4 +1,4 @@
-resource "aws_instance" "lesson_05" {
+resource "aws_instance" "Sandbox" {
   ami           = "ami-0bdc7d025135d7b49"
   instance_type = "t3.micro"
   key_name      = "aws_key"
@@ -9,7 +9,7 @@ resource "aws_instance" "lesson_05" {
   ]
 
   tags = {
-    Name                    = "Lesson_05"
+    Name                    = "Sandbox"
     Vanquisher_of_Gothmog   = "Ecthelion"
     Vanquisher_of_Ecthelion = "Gothmog"
   }
