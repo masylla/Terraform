@@ -13,3 +13,5 @@ crash.*.log
 Cloud/instances/.terraform.lock.hcl
 VPC/.terraform.lock.hcl
 instances/.terraform.lock.hcl
+S3-Module/.terraform.lock.hcl
+S3-Native/.terraform.lock.hcl
