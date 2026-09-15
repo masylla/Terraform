@@ -12,7 +12,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "mybucket" {
-  bucket = "my-unique-bucket-name-mamadousylla-bradhurst" # must be globally unique
+  bucket = "my-unique-bucket-name-services-harvarden" # must be globally unique
 
   tags = {
     Environment = "dev"
