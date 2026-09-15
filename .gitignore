@@ -11,3 +11,5 @@ Cloud/keys/
 crash.log
 crash.*.log
 Cloud/instances/.terraform.lock.hcl
+VPC/.terraform.lock.hcl
+instances/.terraform.lock.hcl
