@@ -15,3 +15,5 @@ VPC/.terraform.lock.hcl
 instances/.terraform.lock.hcl
 S3-Module/.terraform.lock.hcl
 S3-Native/.terraform.lock.hcl
+part-A/dakar-config/.terraform
+part-A/dakar-config/.terraform.lock.hcl
