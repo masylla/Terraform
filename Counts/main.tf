@@ -20,5 +20,7 @@ resource "aws_instance" "instance_dev" {
 
   tags = {
     Name = "Dev-Lab-${count.index + 1}"
+    time_created = formatdate("YYYY-MM-DD HH:MM:ss", timestamp())
+
   }
 }
