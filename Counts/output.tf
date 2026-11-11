@@ -5,7 +5,7 @@ output "public_ip" {
 output "instance_details" {
   value = [
     for instance in aws_instance.instance_dev : {
-      name      = instance.tags.Name
+      name      = instance.tags.Env
       public_ip = instance.public_ip
     }
   ]
